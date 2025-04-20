@@ -13,7 +13,9 @@ struct Index {
           center: { anchor: '__container__', align: VerticalAlign.Center },
           middle: { anchor: '__container__', align: HorizontalAlign.Center }
         })
+        // 这里绑定了点击事件
         .onClick(() => {
+          // 对于上面的message可以直接修改
           this.message = 'Welcome';
         })
     }
